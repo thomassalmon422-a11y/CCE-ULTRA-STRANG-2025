@@ -27,6 +27,8 @@ jobs:
     
     # This step executes the GSHIELD_Logic.py file.
     - name: Run G-SHIELD Policy Injection Test (Claim 3 Validation)
+      # --- PATCH APPLIED HERE ---
+      working-directory: ${{ github.workspace }} 
       run: python GSHIELD_Logic.py
       
     - name: CCE Validation Complete
