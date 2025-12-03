@@ -1,7 +1,3 @@
-# .github/workflows/cce_validation.yml
-# CCE-ULTRA-STRANG-2025: G-SHIELD Integrity Check
-# Ensures the G-SHIELD Policy Injection System (CLAIM 3) is operational.
-
 name: CCE G-SHIELD Validation
 
 on:
